@@ -11,6 +11,7 @@ import AnsewrPage from "./Components/HomePage/AnsewrPage";
 import LandingPage from "./Components/LandingPage/LandingPage";
 export const Mycontext = React.createContext();
 //declare reducer function
+//https://cheerful-fawn-slacks.cyclic.app/
 const reducer = (state, action) => {
   switch (action) {
     case "unlockedRoute":

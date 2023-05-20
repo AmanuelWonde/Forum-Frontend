@@ -12,7 +12,7 @@ const navigate = useNavigate()
 if(!title){
   setWarning("* The Title must be filled")
 }else{
-  axios.post("http://localhost:1008/question",{title:title,description:description})
+  axios.post("https://cheerful-fawn-slacks.cyclic.app/question",{title:title,description:description})
   navigate("/")
 }
 

@@ -14,7 +14,7 @@ function HomePage() {
       setUserName(data.data.user[0].user_name);
       console.log(data.data.user[0].user_name);
       // console.log(data)
-      axios.get("http://localhost:1008/userQuestion").then((data) => {
+      axios.get("https://cheerful-fawn-slacks.cyclic.app/userQuestion").then((data) => {
         let result=data.data.user.reverse();
         setUserQuestion(result);
         console.log(result);

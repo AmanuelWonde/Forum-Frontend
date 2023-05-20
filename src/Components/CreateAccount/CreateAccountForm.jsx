@@ -21,7 +21,7 @@ const [warning,setWarning] = useState("")
   //arrow function to handle the the form submision
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:1008/createaccount", {
+    axios.post("https://cheerful-fawn-slacks.cyclic.app/createaccount", {
         email: email,
         password: password,
         name: name,

@@ -12,7 +12,7 @@ function LandingPage() {
     e.preventDefault();
     if(email&&password){
       axios
-      .post("http://localhost:1008/login", { email: email, password: password })
+      .post("https://cheerful-fawn-slacks.cyclic.app/login", { email: email, password: password })
       .then((data) => {
         if (data.data == "The user in this account does't exist") {
           setWarning("*" + data.data);

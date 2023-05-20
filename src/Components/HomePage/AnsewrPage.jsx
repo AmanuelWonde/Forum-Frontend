@@ -11,7 +11,7 @@ function AnsewrPage() {
         if(!answer){
           setWarning("*You can't post empty answer")
         }else{
-          axios.post("http://localhost:1008/answer",{answer:answer})
+          axios.post("https://cheerful-fawn-slacks.cyclic.app/answer",{answer:answer})
         }
     }
   return (
