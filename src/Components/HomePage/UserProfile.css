@@ -1,0 +1,13 @@
+.UserProfle{
+    display: flex;
+    justify-content: space-between;
+}
+.profilQuestion{
+    margin-left: 10px;
+}
+.Profile_icon{
+margin-top: 5px;
+}
+.UserProfile_arrowWrapper{
+    margin-top: 35px;
+} 

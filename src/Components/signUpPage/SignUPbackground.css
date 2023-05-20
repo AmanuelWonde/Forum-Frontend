@@ -1,0 +1,17 @@
+.SignUPbackground{
+    height: auto;
+    width: 500px;
+    background-size: 500px 450px ;
+    background-color: white;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px  rgb(72, 77, 79);
+}
+small{
+    color:  rgb(255, 149, 0);
+    font-size: 15px;
+}
+small:hover{
+    border-bottom: 1px solid rgb(255, 149, 0);
+}

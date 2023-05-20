@@ -1,0 +1,32 @@
+.Header {
+  width: 100%;
+  max-height: 100px;
+}
+.logoWrapper {
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logoWrapper_textWrapper {
+  display: flex;
+}
+.logoWrapper_textWrapper h3 {
+  margin: 15px;
+}
+.logoWrapper_textWrapper h3:hover {
+  color: rgb(255, 149, 0);
+}
+.logoWrapper_textWrapper button {
+  margin-top: 10px;
+  height: 40px;
+  padding: 5px;
+  /* padding-bottom: -3px; */
+  width: 100px;
+  background-color: rgb(45, 45, 208);
+  border: 1px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}

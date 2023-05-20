@@ -1,0 +1,25 @@
+.footer{
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(47, 1, 90);
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.socialMediaWrapper div{
+    width: 100px;
+display: flex;
+justify-content: space-between;
+}
+.footer h3{
+    color: rgba(255, 255, 255, 0.87);
+    margin-left: 40px;
+}
+.socialMediaWrapper{
+    padding-top: 20px;
+}
+.footer li{
+    list-style: none;
+    color: rgba(213, 213, 213, 0.6);
+}

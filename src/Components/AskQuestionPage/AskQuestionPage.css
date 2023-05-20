@@ -1,0 +1,56 @@
+.AskQuestionPage{
+    max-width: 100%;
+    height: auto;
+    /* text-align: center; */
+}
+.stepsToWrite{
+ width: 40%;
+ margin: auto;
+}
+.stepsToWrite h3{
+    margin-left: 60px;
+   }
+.AskForm{
+    width: 950px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px  whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+   }
+   .AskForm form{
+    display: flex;
+    flex-direction: column;
+   }
+   .AskForm form input{
+    margin: 10px;
+    border-radius: 5px;
+    border: 0.5px solid;
+
+   }
+   .AskForm form input:focus{
+    margin: 10px;
+    border-radius: 5px;
+    border: 0.5px solid;
+
+   }
+   .AskForm form button{
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(45, 45, 208); 
+    border: 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+   }
+   .title{
+height:40px ;
+width: 900px;
+   }
+   .textarea{
+    width: 900px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+   }

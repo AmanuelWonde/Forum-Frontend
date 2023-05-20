@@ -1,0 +1,23 @@
+.HomePage{
+    width: 100%;
+    z-index: -1;
+}
+.HomePage_ProfileWrapper{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.HomePage_ProfileWrapper_button{
+    display: flex;
+    justify-content: space-between;
+}
+.HomePage_ProfileWrapper button{
+    margin-top: 10px;
+    padding: 5px;
+    height: 30px;
+    padding-bottom: -3px;
+    width: 100px;
+    background-color: rgb(45, 45, 208);
+    border: 1px;
+    border-radius: 5px;
+}

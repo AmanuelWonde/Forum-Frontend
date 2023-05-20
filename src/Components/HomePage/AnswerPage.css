@@ -1,0 +1,31 @@
+.AnsewrPage{
+    width: 70%;
+    margin: auto;
+}
+.AnswerPage_input{
+    align-items: center;
+    text-align: center;
+}
+.AnswerPage_input form {
+    display: flex;
+    flex-direction: column;
+}
+.AnswerInput{
+    border-radius: 10px;
+    height: 150px;
+}
+.AnswerInput_submit{
+    margin: 10px 0;
+    padding: 5px;
+    height: 30px;
+    padding-bottom: -3px;
+    width: 150px;
+    background-color: rgb(45, 45, 208);
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+}
+.AnsewrPage form p{
+    color: red;
+    text-align: left;
+}

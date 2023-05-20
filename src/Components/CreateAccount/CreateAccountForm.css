@@ -1,0 +1,57 @@
+/* .CreateAccountForm {
+  height: 450px;
+  width: 500px;
+  background-color: white;
+  margin-right: 50px;
+  text-align: center;
+  padding: 15px ;
+  border-radius: 15px;
+  box-shadow: 5px 5px 50px  rgb(72, 77, 79); */
+  /* z-index: 3; */
+
+.CreateAccountForm form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.CreateAccountForm form .button {
+  width: 400px;
+  height: 35px;
+  padding: 10px;
+  background-color: rgb(67, 67, 204);
+}
+.CreateAccountForm form .policyand_privacy{
+  font-size: 12px;
+}
+
+.CreateAccountForm input {
+  width: 400px;
+  height: 30px;
+  margin: 5px 0px;
+  border-radius: 3px;
+}
+.nameInput {
+  display: flex;
+}
+.nameInput input {
+  width: 170px;
+}
+.nameInput .input1 {
+  margin-right: 25px;
+}
+.nameInput .input2 {
+  margin-left: 25px;
+}
+a{
+  color:  rgb(255, 149, 0);
+  text-decoration: none;
+}
+.CreateAccountForm form .warning{
+  color: red;
+  margin: 0;
+  text-align: left;
+}
+/* a:hover{
+  border-bottom: 1px solid rgb(255, 149, 0);
+} */
