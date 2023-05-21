@@ -15,7 +15,6 @@ if(!title){
   axios.post("https://cheerful-fawn-slacks.cyclic.app/question",{title:title,description:description})
   navigate("/")
 }
-
   }
  return (
     <div className="AskQuestionPage">
