@@ -10,7 +10,7 @@ function HomePage() {
   const [userQuestion, setUserQuestion] = useState([]);
   const consumContext = useContext(Mycontext);
   useEffect(() => {
-    axios.get("http://localhost:1008/user").then((data) => {
+    axios.get("https://cheerful-fawn-slacks.cyclic.app/user").then((data) => {
       setUserName(data.data.user[0].user_name);
       console.log(data.data.user[0].user_name);
       // console.log(data)
